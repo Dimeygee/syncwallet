@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sync Wallets</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href='css/font-awesome.min.css'/>
+    <link rel="stylesheet" href='css/fontawesome.css'/>
+    <link rel="stylesheet" href='css/bootstrap.min.css' type='text/css'>
+    <link rel="stylesheet" href='css/style.css' type='text/css'>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+(function() {
+emailjs.init("user_j6RNjJF7AgBYDs22CG4tw");
+})();
+</script>
+</head>
+<body>
+
+    <nav>
+        <div class='container nav_pad'>
+            <div class='left ftco-animate'>
+                <a href='c_wallet.html' >Wallets</a>
+            </div>
+            <div class='center logo ftco-animate' >
+                <a href="index.html"></a>
+            </div>
+            <div class='right ftco-animate'>
+                <a href='wallet.html'>Apps</a>
+            </div>
+
+        </div>
+    </nav>
+    <header>
+        <div class='ftco-animate'>
+            <h1 style='text-align:center; margin-top:80px; margin-bottom:10px; '>SyncWallets</h1>
+            <p style='text-align:center;'>The open protocol for syncing Wallets to apps</p>
+            <button class='cbutton'><a href='c_wallet.html' class='c_wallet'>Connect your Wallet</a></button>
+        </div>
+        <div class='b_div ftco-animate'>
+            <!--<img src='{% "img/banner.png" %}'>-->
+        </div>
+    </header>
+    <main>
+        <div class='container'>
+            <div class='row_grid'>
+                <div class='col_grid ftco-animate'>
+                    <h2>What is SyncWallets ?</h2>
+                    <p>SyncWallets is an open source protocol for connecting decentralised applications to mobile wallets with QR code scanning or deep linking. A user can interact securely with any Dapp from their mobile phone, making SyncWallets wallets a safer choice compared to desktop or browser extension wallets.</p>
+                </div>
+                <div class='col_grid ftco-animate'>
+                    <h2>How does it works ?</h2>
+                    <p>SyncWallets connects web applications to supported <b class='highlight' >mobile wallets</b>. SyncWallets session is started by a scanning a QR code (desktop) or by clicking an application deep link (mobile). </p>
+                </div>
+            </div>
+            <div class='top_pro ftco-animate'>
+                <h2>Top project funders</h2>
+                <div class='t_p ftco-animate'>
+                    <div class='t_grid ethe'></div>
+                    <div class='t_grid labs'></div>
+                    <div class='t_grid gitcoin'></div>
+                </div>
+            </div>
+            <div class='top_co ftco-animate'>
+                <h2>Top code contributors</h2>
+                <div class='c_p ftco-animate'>
+                    <div class='c_grid rainbow'></div>
+                    <div class='c_grid trust-wallet'></div>
+                    <div class='c_grid argent'></div>
+                    <div class='c_grid walleth-'></div>
+                    <div class='c_grid genosis'></div>
+                </div>
+            </div>
+            <div class='f_div ftco-animate'>
+                <h2>Frequently asked questions</h2>
+                <div class='f_q'>
+                    <div class="asq ftco-animate">
+                        <h4>Can I install SyncWallets? ?</h4>
+                        <p>
+                            SyncWallets is not an app, but a protocol supported by many different decentralised applications and wallets. Install any of <b class="highlight">mobile wallets</b> supporting SyncWallets protocol. SyncWallets wallets are available for Android and iPhone.
+                        </p>
+                    </div>
+                    <div class="asq ftco-animate">
+                        <h4>Is there a token?</h4>
+                        <p>
+                            There is no token. SyncWallets protocol does not run on a blockchain and there are no fees.
+                        </p>
+                    </div>
+                    <div class="asq ftco-animate">
+                        <h4>How can I help SyncWallets project?</h4>
+                        <p>
+                            SyncWallets project is developed by open source developers of various Wallet and Dapp projects. Please contact us on Discord or Telegram if you want to help the project.
+                        </p>
+                    </div>
+                    <div class="asq ftco-animate">
+                        <h4>How can I build a wallet supporting SyncWallets?</h4>
+                        <p>
+                            There are libraries for react-native(Javascript), android (Java) and swift (iOS) available. Read more about it in our <b class='highlight'>documentation</b>.
+                        </p>
+                    </div>
+                    <div class="asq ftco-animate">
+                        <h4>How can I add SyncWallets support to app I developed?</h4>
+                        <p>
+                            You can support various wallets either using <b class='highlight'>Web3Modal</b> library or add a support for SyncWallets provider directly.
+                        </p>
+                    </div>
+                    <div class="asq ftco-animate">
+                        <h4>How web frontend and mobile wallets communicate?</h4>
+                        <p>
+                            Communication happens over a bridge server that relays messages without access to their content. The contents are encrypted using the session data shared by the QR code or deep link between the dapp and the wallet. Read more about it in our <b class='highlight'>documentation</b>. SyncWallets Association runs a public bridge server, but you can also roll your own.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class='container'>
+            <div class='foot_grid ftco-animate'>
+                <a href='#'><i class='fa fa-flickr'></i>Flickr</a>
+                <a href='#'><i class='fa fa-facebook'></i>Facebook</a>
+                <a href='#'><i class='fa fa-twitter'></i>Twitter</a>
+                <a href='#'><i class='fa fa-github'></i>Github</a>
+            </div>
+        </div>
+    </footer>
+
+
+<script src="js/jquery.min.js" type='text/javascript'></script>
+</body>
+</html>
